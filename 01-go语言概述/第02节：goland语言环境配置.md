@@ -49,5 +49,8 @@
 
 ![images](../images/0102_complete.png)
 
+5. 使用cmd命令go version与go env测试安装包与环境变量是否安装成功。
 
+![images](../images/0102_cmd.png)
 
+6. 如上图所示则表示安装成功！
