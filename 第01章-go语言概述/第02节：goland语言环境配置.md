@@ -8,7 +8,7 @@
 * Mac OS X（也称为 Darwin）
 * Windows
 
-### 一、下载地址
+### Windows下载地址
 安装包下载地址为: [golang下载地址](https://golang.google.cn/dl/)
 
 各个系统对应的包名：

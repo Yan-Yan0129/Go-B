@@ -1,6 +1,6 @@
 # 第04节：Hello_Word
 
-前几节讲述了如何下载，安装编程工具，配置golang。那么接下来就来讲解我们下载好的第一个按例HelloWord
+前几节讲述了如何下载，安装编程工具，配置golang。那么接下来就来讲解我们第一个按例:HelloWord
 
 #### Go 语言的基础组成有以下几个部分：
 * 包声明
@@ -25,13 +25,23 @@
 
 4.写入代码 
 
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World!")
+}
+```
+
 ![images](../images/0104_write.png)
 
 5. 右键文件夹 用终端打开 输入输出命令`go build`进行编译 
 
 ![images](../images/0104_cmd.png)
 
-6. 编译通过后开始执行命令` go run *.go `最后输出Hello！ 
+6. 编译通过后开始执行命令` go run main.go `最后输出Hello！ 
 
 ![images](../images/0104_run.png)
 
@@ -66,13 +76,13 @@ Print 和 Println 这两个函数也支持使用变量，如：fmt.Println(arr)�
 
 ### 三、执行go程序
 让我们来看下如何编写 Go 代码并执行它。步骤如下：
-1. 打开编辑器如Sublime2，将以上代码添加到编辑器中。
+1. 打开编辑器如vscode，将以上代码添加到编辑器中。
 
-2. 将以上代码保存为 hello.go
+2. 将以上代码保存为 main.go
 
 3. 打开命令行，并进入程序文件保存的目录中。
 
-4. 输入命令 go run hello.go 并按回车执行代码。
+4. 输入命令 go run main.go 并按回车执行代码。
 
 5. 如果操作正确你将在屏幕上看到 "Hello World!" 字样的输出。
 
