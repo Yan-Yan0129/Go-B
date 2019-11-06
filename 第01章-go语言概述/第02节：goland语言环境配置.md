@@ -8,7 +8,7 @@
 * Mac OS X（也称为 Darwin）
 * Windows
 
-### Windows下载地址
+### 一、Windows下载地址
 安装包下载地址为: [golang下载地址](https://golang.google.cn/dl/)
 
 各个系统对应的包名：
@@ -28,7 +28,40 @@
 
 ![images](../images/0102_yes.png)
 
-### 三、配置
+### 三、Linux安装
+
+我们在版本选择页面选择并下载`go1.11.5.linux-amd64.tar.gz`文件：
+
+> `wget https://dl.google.com/go/go1.11.5.linux-amd64.tar.gz`
+
+将下载好的文件解压到/usr/local目录下：
+
+> `mkdir -p /usr/local/go  # 创建目录`
+`tar -C /usr/lcoal/go zxvf go1.11.5.linux-amd64.tar.gz. # 解压`
+
+如果提示没有权限，加上`sudo`以root用户的身份再运行。执行完就可以在`/usr/local/`下看到go目录了。
+
+配置环境变量： Linux下有两个文件可以配置环境变量，其中`/etc/profile`是对所有用户生效的；`$HOME/.profile`是对当前用户生效的，根据自己的情况自行选择一个文件打开，添加如下两行代码，保存退出。
+
+> `export GOROOT=/usr/local/go
+>  export PATH=$PATH:$GOROOT/bin`
+
+修改`/etc/profile`后要重启生效，修改`$HOME/.profile`后使用source命令加载`$HOME/.profile`文件即可生效。 检查：
+
+>` go version`
+>`go version go1.11.5 linux/amd64``
+
+### 四、Mac下安装
+
+下载可执行文件版，直接点击下一步安装即可，默认会将go安装到`/usr/local/go`目录下。
+
+![images](../images/0102_mac.png)
+
+检查
+
+上一步安装过程执行完毕后，可以打开终端窗口，输入`go version`命令，查看安装的Go版本。
+
+### 五、配置
 
 1. `GOPATH`是一个环境变量，用来表明你写的go项目的存放路径（工作目录）。
 2. `GOPATH`路径最好只设置一个，所有的项目代码都放到`GOPATH`的`src`目录下。
