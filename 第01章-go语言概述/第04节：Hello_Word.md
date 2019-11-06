@@ -49,14 +49,13 @@ func main() {
 ### 二、代码讲解
 
 ```go
-    package main
+package main  // 声明 main 包，表明当前是一个可执行程序
 
-    import "fmt"
+import "fmt"  // 导入内置 fmt 包
 
-    func main() {
-        /* 这是我的第一个简单的程序 */
-       fmt.Println("Hello, World!")
- }
+func main(){  // main函数，是程序执行的入口
+	fmt.Println("Hello World!")  // 在终端打印 Hello World!
+}
 
 ```
 
