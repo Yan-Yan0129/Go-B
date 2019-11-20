@@ -1,6 +1,6 @@
 # 第04节：Hello_Word
 
-前几节讲述了如何下载Go和安装Go开发工具那么接下来就来讲解我们第一个案例:Hello_Word
+前几节讲述了如何下载Go和安装Go开发工具那么接下来就来讲解我们第一个案例:Hello_Word;
 
 
 #### Go 语言的基础组成有以下几个部分：
@@ -12,6 +12,7 @@
 * 注释
 
 ### 一、创建Hello Word及运行项目
+
 1. 打开vscode软件 创建Hell Word项目
 
 ![images](../images/0104_Establish.png)
