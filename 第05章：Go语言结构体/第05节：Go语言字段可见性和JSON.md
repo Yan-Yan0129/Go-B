@@ -9,7 +9,7 @@
 ### 二、结构体与JSON序列化
 
 JSON(JavaScript Object Notation)是一种轻量级的数据格式，易于常人阅读与编写，同时也易于机器解析和生成。JSON键对值是用来保存JS对象的一种方式，键/值对组合的键名写在前面并用双引号 `""` 包裹，使用冒号 `:` 分隔，然后紧接着值;多个键值之间用英文 `,`分隔;
-
+[案例链接](https://github.com/Yan-Yan0129/Go-example/blob/master/%E7%AC%AC05%E7%AB%A0%EF%BC%9AGo%E8%AF%AD%E8%A8%80%E7%BB%93%E6%9E%84%E4%BD%93/%E7%AC%AC05%E8%8A%82%EF%BC%9AGo%E8%AF%AD%E8%A8%80%E5%AD%97%E6%AE%B5%E5%8F%AF%E8%A7%81%E6%80%A7%E5%92%8CJSON/demo01.md)
 ```go
 //Student 学生
 type Student struct {

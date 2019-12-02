@@ -6,7 +6,7 @@
 
 本节我们的学习目标是，了解map(集合)怎么使用map(集合)是做什么的;
 
-### 二、map(集合)
+### 二、map(映射)
 
 map是一种无序的基于 `key-value` 的数据结构，Go语言中map是引用类型，必须初始化才能使用
 
@@ -34,7 +34,7 @@ make(map[KeyType]ValueType,[cap])
 ##### map基本使用
 
 map中的数据都是成对出现的，map的基本使用示例代码如下:
-
+[案例链接](https://github.com/Yan-Yan0129/Go-example/blob/master/%E7%AC%AC04%E7%AB%A0%EF%BC%9AGo%E8%AF%AD%E8%A8%80%E5%88%87%E7%89%87%E4%B8%8Emap(%E6%98%A0%E5%B0%84)/%E7%AC%AC01%E8%8A%82%EF%BC%9AGo%E8%AF%AD%E8%A8%80%E5%88%87%E7%89%87%E4%B9%8B%E5%9F%BA%E7%A1%80/demo03.md)
 ```go
 func main() {
 	scoreMap := make(map[string]int, 8)
@@ -74,7 +74,7 @@ value, ok := map[key]
 ```
 
 举个例子:
-
+[案例链接](https://github.com/Yan-Yan0129/Go-example/blob/master/%E7%AC%AC04%E7%AB%A0%EF%BC%9AGo%E8%AF%AD%E8%A8%80%E5%88%87%E7%89%87%E4%B8%8Emap(%E6%98%A0%E5%B0%84)/%E7%AC%AC02%E8%8A%82%EF%BC%9AGo%E8%AF%AD%E8%A8%80map(%E6%98%A0%E5%B0%84)/demo02.md)
 ```go
 func main() {
 	scoreMap := make(map[string]int)
@@ -99,7 +99,7 @@ func main() {
 ##### map的遍历
 
 Go语言中使用 `for range` 遍历 map
-
+[案例链接](https://github.com/Yan-Yan0129/Go-example/blob/master/%E7%AC%AC04%E7%AB%A0%EF%BC%9AGo%E8%AF%AD%E8%A8%80%E5%88%87%E7%89%87%E4%B8%8Emap(%E6%98%A0%E5%B0%84)/%E7%AC%AC02%E8%8A%82%EF%BC%9AGo%E8%AF%AD%E8%A8%80map(%E6%98%A0%E5%B0%84)/demo03.md)
 ```go
 func main() {
 	scoreMap := make(map[string]int)
