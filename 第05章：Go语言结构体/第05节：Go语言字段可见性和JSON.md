@@ -72,7 +72,12 @@ json:{"Title":"101","Students":[{"ID":0,"Gender":"男","Name":"stu00"},
 
 {"ID":9,"Gender":"男",e""Name":"stu09"}]}
 
-&main.Class{Title:"101", Students:[]*main.Student{(*main.Student)(0xc00006c810), (*main.Student)(0xc00006c840), (*main.Student)(0xc0000006c870), (*main.Student)(0xc00006c8a0), (*main.Student)(0xc00006c900), (*main.Student)(0xc00006c930), (*main.Student)(0xc00006c960 (), (*main.Student)(0xc00006c990), (*main.Student)(0xc00006c9c0), (*main.Student)(0xc00006c9f0)}}
+&main.Class{Title:"101", Students:[]*main.Student{(*main.Student)(0xc00006c810),
+(*main.Student)(0xc00006c840), (*main.Student)(0xc0000006c870),
+(*main.Student)(0xc00006c8a0), (*main.Student)(0xc00006c900),
+(*main.Student)(0xc00006c930), (*main.Student)(0xc00006c960 (),
+(*main.Student)(0xc00006c990), (*main.Student)(0xc00006c9c0),
+(*main.Student)(0xc00006c9f0)}}
 ```
 
 ### 三、结构体标签(Tag)
